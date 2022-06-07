@@ -1,0 +1,17 @@
+This is sample to use NightWatchJS to automate testing
+
+Installation:
+    - Node
+    - npm
+    - npm install
+    - npm install chromedriver --save-dev
+
+Execution:
+    All tests within 'tests':
+        npm test
+    Test with tag:
+        npm test -- --tag login
+    Eslint:
+        npm run lint
+    Debug:
+        npm run debug
