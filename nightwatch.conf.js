@@ -18,7 +18,10 @@ module.exports = {
                 'path': 'tests_output/screenshots'
             },
             desiredCapabilities : {
-                browserName : 'chrome'
+                browserName : 'chrome',
+                chromeOptions : {
+                    'args': ['--headless', '--no-sandbox', '--window-size=1280,800']
+                }
             }
         }
     }
