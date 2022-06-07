@@ -1,0 +1,22 @@
+{
+  "name": "hsb-auto-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "debug": "node --inspect-brk node_modules/.bin/nightwatch",
+    "test": "nightwatch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chromedriver": "^102.0.0",
+    "nightwatch": "^2.1.7"
+  },
+  "dependencies": {
+    "eslint": "^8.17.0",
+    "node": "^17.7.2"
+  }
+}
